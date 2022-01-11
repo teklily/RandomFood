@@ -9,21 +9,13 @@
             Meal = input("What meal would you like suggestions for? Options: breakfast, lunch, dinner or snack, press return to end: ")
             cute = (random.choice(mommasays))
             if Meal == "lunch":
-                Meal = random.choice(lunch)
-                
+                Meal = random.choice(lunch)  
                 lunch_sentence =  Meal + "!!    BTW, " + cute + "!"
-                #lunch_sentence = Meal.capitalize() + cute.capitalize()
                 print(lunch_sentence)
-               # print(cute)
-               # print(random.choice(mommasays))
-                #print("Eat up, my tweet, tweet! hearts hearts hearts")
                 break
             if Meal == "breakfast":
                 Meal = random.choice(breakfast)
                 breakfast_sentence =  Meal + "!!   BTW, " + cute + "!"
-                #breakfast_sentence = Meal.capitalize()
-                print(breakfast_sentence) 
-                #print("B'lanna says eat!!!")
                 break
             if Meal == "snack":
                 Meal = random.choice(snack)
