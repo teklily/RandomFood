@@ -1,5 +1,4 @@
     import random
-"""#working!!!!"""
     lunch=["Peaunt butter and chocolate chip sandwich","nuggets",,"Pizza","Seitan stir fry","PB+Jelly","lunchable","toasted sandwich","something new"]
     breakfast=["Pop Tart","Kale Smoothie","Waffle","Streudel","pancakes","something new"]
     snack=["yogurt","cheese","banana","turkey","apple"]
